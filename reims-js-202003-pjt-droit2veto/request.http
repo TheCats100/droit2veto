@@ -1,0 +1,162 @@
+##################################### USERS ################################################
+
+###Look table
+GET http://localhost:8000/users
+
+###
+GET http://localhost:8000/users/4
+
+###
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "email": "duponti@mail.com",
+    "password": "98765",
+    "ordinal_number": "48545"
+}
+
+###
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "email": "user@gmail.com",
+    "password":"12345",
+    "ordinal_number": "648567" 
+}
+
+###
+PUT http://localhost:8000/users/2
+Content-Type: application/json
+
+{
+    "ordinal_number": "987654",
+    "admin": 1
+}
+
+###
+DELETE http://localhost:8000/users/2
+
+
+
+##################################### ACTIVITIES ################################################
+
+
+
+###Look all activities
+GET http://localhost:8000/activities
+
+###Look one activity
+GET http://localhost:8000/activities/1
+
+### POST Add one activity
+POST http://localhost:8000/activities
+Content-Type: application/json
+
+{
+    "title": "Echographie",
+    "description": "L'échographie est une technique d'imagerie employant des ultrasons."
+}
+
+### PUT Change one activity
+PUT http://localhost:8000/activities/3
+Content-Type: application/json
+
+{
+    "title": "Médecine générale",
+    "description": "Lorem ipsum"
+}
+
+###DELETE one activity
+DELETE http://localhost:8000/activities/3
+
+
+###################################### PURCHASES_ORDERS ##############################################
+
+
+###Look all PurchasesOrders
+GET http://localhost:8000/purchasesorders
+
+###Look one PurchasesOrders
+GET http://localhost:8000/purchasesorders/1
+
+###POST Add a purchase
+POST http://localhost:8000/purchasesorders
+Content-Type: application/json
+
+{
+    "DVM_id" : "1",
+    "quantity": "2"
+}
+
+
+###Look all products
+GET http://localhost:8000/products
+
+
+###POST Add a products
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+    "type_logo": "1",
+    "film_personnalisé_anesthésie": "1",
+    "film_personnalisé_activités": "0",
+    "WallOfFame_sticker": "0"
+}
+
+######################################### LOGIN ############################################
+
+POST http://localhost:8000/auth/login
+Content-Type: application/json
+
+{
+    "email": "user@gmail.com",
+    "password": "12345",
+    "ordinal_number": "648567"
+}
+
+#########################################
+
+GET http://localhost:8000/users/2/activities
+
+
+### POST
+POST http://localhost:8000/users/2/activities
+Content-Type: application/json
+
+{
+    "DVM_id": 2,
+    "Activities_id": 6
+}
+
+###DELETE
+DELETE http://localhost:8000/users/2/activities/6
+
+
+######################################### PDF ############################################
+
+###POST
+POST http://localhost:8000/generatePdf/2/activities
+
+###GET
+GET http://localhost:8000/generatePdf/2/pdf
+###Upload
+
+POST http://localhost:8000/uploadlogo
+Content-Type: application/json
+
+{}
+
+
+###GET admin
+GET http://localhost:8000/users/admin/2
+
+###Admin put
+PUT http://localhost:8000/users/2
+Content-Type: application/json
+
+{
+    "admin":"1"
+}

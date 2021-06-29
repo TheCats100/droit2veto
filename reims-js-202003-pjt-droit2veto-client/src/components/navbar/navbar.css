@@ -1,0 +1,76 @@
+.navbarTitle {
+    font-size: 5vh;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.navbarTitle:visited {
+    color:white;
+}
+
+.navbarPage {
+    display: flex;
+}
+
+.navbarVerticaleBloc {
+    width: 20vw;
+    height: 100vh;
+    background-color: #003366;
+    color: white;
+    font-size: 3vh;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.navbarVerticaleBloc img {
+    height: 2.5vh;
+    margin-right: 0.5vw;
+}
+
+.navbarVerticaleBloc ul {
+    margin-top: 10vh;
+}
+
+.navbarVerticaleBloc ul li {
+    list-style: none;
+    margin-bottom: 4vw;
+}
+
+.navbarLink {
+    text-decoration: none;
+}
+
+.navbarLink:visited {
+    color:white;
+}
+
+#navbarPaw{
+    height: 15vh;
+    position: absolute;
+    bottom: 3vh;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .navbarVerticaleBloc {
+        width: 35vw;
+        font-size: 2vh;
+    }
+    .navbarTitle {
+        font-size: 4vh;
+    }
+
+    .navbarVerticaleBloc img {
+        height: 2vh;
+    }
+
+    .navbarVerticaleBloc ul li {
+        margin-bottom: 7vh;
+    }
+
+
+}

@@ -1,0 +1,142 @@
+.logPageContainer {
+  background: no-repeat center/100% url('../../images/borna-bevanda-w12NAMymqnk-unsplash-ConvertImage-output-onlinejpgtools.jpg');
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logPageLeft {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logPageRight {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logPageTitle {
+  font-size: 5vh;
+  position: absolute;
+  top: 3vh;
+  left: 7vw;
+  text-transform: uppercase;
+}
+
+.logPageTextDiv {
+  width: 90%;
+}
+
+.logPageText1 {
+  font-size: 5vh;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.logPageText2 {
+  font-size: 4vh;
+  font-weight: normal;
+  margin-bottom: 2vh;
+}
+
+.logPageText3 {
+  font-size: 5vh;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.logPageFormText {
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.logPageFormInputDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logPageFormInput {
+  width: 90%;
+  height: 4vh;
+  margin-bottom: 2vh;
+}
+
+.logPageLabel {
+  margin-bottom: 1vh;
+}
+
+.logPageFormButton {
+  width: 50%;
+  height: 4vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8vh;
+}
+
+.logPageFormButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.logPageLink {
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .logPageContainer {
+    background: no-repeat center/100% url('../../images/paul-hanaoka-URnWOJX8wW4-unsplash.jpg');
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .logPageTitle {
+    font-size: 4vh;
+    top: 2vh;
+    left: 5vw;
+  }
+
+  .logPageText1 {
+    font-size: 4vh;
+  }
+  
+  .logPageText2 {
+    font-size: 3vh;
+  }
+  
+  .logPageText3 {
+    font-size: 4vh;
+  }
+
+  .logPageLeft {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .logPageRight {
+    width: 90%;
+    align-items: flex-end;
+  }
+
+  .logPageTextDiv {
+    margin-top: 8vh;
+  }
+  
+
+}

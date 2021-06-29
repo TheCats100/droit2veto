@@ -1,0 +1,80 @@
+.formInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.labelInfo {
+    display: flex;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 3vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.titleInfo {
+    display: flex;
+    margin-left: 2vw;
+    font-size: 5vh;
+    color: #003366
+}
+
+.villeInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonInfo {
+    margin: 3vw 0 3vw 20vw;
+}
+
+.inputInfo {
+    height: 5vh;
+    font-size: 2.5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 30vw;
+}
+
+.buttonValider {
+    height: 6vh;
+    width: 7vw;
+    font-size: 2.8vh;
+    color: white;
+    background-color: #003366;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.buttonAddLogo {
+    font-size: 2vh;
+}
+
+.logoInformation {
+    width: 5vw;
+    margin-left: 2vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+.labelInfo {
+    font-size: 2vh;
+}
+
+.titleInfo {
+    font-size: 4vh;
+}
+
+.inputInfo {
+    height: 3vh;
+    font-size: 2vh;
+    width: 25vw;
+}
+
+.buttonValider {
+    height: 5vh;
+    width: 15vw;
+    font-size: 2vh;
+}
+
+}

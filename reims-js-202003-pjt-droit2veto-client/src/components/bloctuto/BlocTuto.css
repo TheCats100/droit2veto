@@ -1,0 +1,72 @@
+.ButtonLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paraButton{
+    text-align: center;
+    font-size: 3vh;
+    width: 25vw;
+}
+
+.tutoButton {
+    color: white;
+    background-color: #003366;
+    border-radius: 15px;
+    border: none;
+    font-size: 4.5vh;
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.tutoButton:hover {
+    color: #003366;
+    background-color: white;
+    border: solid 1px #003366;
+}
+
+.flexButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 20vh;
+}
+
+.blocTutoWelcome {
+    font-size: 6vh;
+    color: #003366;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    .paraButton{
+        font-size: 2vh;
+        width: 50vw;
+    }
+    
+    .tutoButton {
+        font-size: 3.5vh;
+        width: 50vw;
+        height: 20vh;
+    }
+
+    .flexButton {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .blocTutoWelcome {
+        font-size: 4.5vh;
+        margin-bottom: 8vh;
+    }
+}

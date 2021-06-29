@@ -1,0 +1,109 @@
+.titreManageAdmin{
+    font-size: 4vh;
+    color: #003366;
+    margin-left: 4vw;
+}
+
+.ListeActivitiesAdmin{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.AdminTitleAndDiscription{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 3vw;
+}
+
+.ButtonSupManageadmin{
+    background-color: #003366;
+    color: white;
+    border: none;
+    height: 3vh;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.AdminTitle{
+    padding-left: 1rem;
+    font-size: 2.5vh;
+}
+
+.AdminDiscription{
+    padding-left: 1rem;
+    font-size: 2vh;
+}
+
+.AdminLabel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    margin-left: 3vw;
+}
+
+.adminFormInput {
+    width: 20vw;
+    height: 3vh;
+    margin-bottom: 2vh;
+}
+
+.buttonTitleAdmin {
+    font-size: 2vh;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.buttonLogoAdmin {
+    font-size: 2vh;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.descriptionDivAdmin {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.buttonDescriptionAdmin {
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.buttonEditAdmin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logoActivityAdmin {
+    width: 6vw;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .AdminTitle{
+        font-size: 2vh;
+    }
+
+    .AdminDiscription{
+        font-size: 1.5vh;
+    }
+
+    .ButtonSupManageadmin{
+        margin-right: 1.5vw;
+    }
+
+    .titreManageAdmin{
+        font-size: 3vh;
+    }
+
+    .AdminLabel{
+        margin-left: 2vw;
+    }
+}

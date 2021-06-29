@@ -1,0 +1,86 @@
+.TitleActivityList {
+    font-size: 3vh;
+    margin: 3vh 0vw 2vh 3vw;
+    color: #003366;
+}
+
+.ValButActivityList{
+    padding: 1vw;
+    height: 7vh;
+    background-color: #003366;
+    color: white;
+    font-size: 3vh;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 3vw;
+    margin-bottom: 2vh;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonAdmin {
+    padding: 1vw;
+    height: 3vh;
+    width: 5vw;
+    background-color: #003366;
+    color: white;
+    font-size: 3vh;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 2vh;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoActivity {
+    width: 4vw;
+    margin-left: 1rem;
+}
+
+.activityListAll {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    border-bottom: 1px solid #003366;
+}
+
+.buttonActivityDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 2vw;
+}
+
+.activityColorDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    color: #003366;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .TitleActivityList {
+        font-size: 2vh;
+    }
+    
+    .ValButActivityList{
+        padding: 1vh 1.5vw;
+        font-size: 2vh;
+        height: 4vh;
+    }
+
+    .buttonAdmin {
+        font-size: 1.8vh;
+        width: 6vw;
+    }
+}
